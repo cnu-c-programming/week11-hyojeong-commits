@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-enum Color {RED, GREEEN, BLUE};
-
-enum Status { OK=0, ERR = -1, BUSY =1};
+enum Color  { RED, GREEN, BLUE };
+enum Status { OK = 0, ERR = -1, BUSY = 1 };
 
 int main(void) {
     printf("RED   = %d\n", RED);
@@ -13,5 +12,5 @@ int main(void) {
     printf("ERR  = %d\n", ERR);
     printf("BUSY = %d\n", BUSY);
 
-  return 0;
+    return 0;
 }
